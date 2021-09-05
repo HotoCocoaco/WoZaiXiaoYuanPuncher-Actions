@@ -10,7 +10,7 @@ on:
 
   # Github Action uses UTC time, +8 for Beijing time
   schedule:
-    - cron:  '30 9 * * *' # 默认在每天 UTC 12:30 和 23:30 （北京时间 20:30 和 7:30）执行
+    - cron:  '30 3/9/12 * * *' # 默认在每天 UTC 12:30 和 23:30 （北京时间 20:30 和 7:30）执行
 
 
 
